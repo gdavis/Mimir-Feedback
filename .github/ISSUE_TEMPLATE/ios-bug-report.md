@@ -4,7 +4,7 @@ about: Create a bug report for the Mimir iOS app
 title: "[BUG][iOS] Add a summary about the issue"
 labels: bug, iOS, needs review
 assignees: gdavis
-projects: Mimir Feature Tracking
+projects: "Mimir Feature Tracking"
 ---
 
 **Describe the bug**

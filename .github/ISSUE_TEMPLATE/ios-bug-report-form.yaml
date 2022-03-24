@@ -8,10 +8,10 @@ body:
   - type: markdown
     attributes:
       value: |
+        **⚠️ Remember to add a short title for your bug above! ⬆️**
+
         # 📱🐛 Report a Bug
         Use this form to submit a new bug for the Mimir iOS app. Thank you for taking the time out of your day to help improve the app! :heart:
-        
-        **⚠️ Remember to add a short title for your bug above!**
         
   - type: checkboxes
     id: unique
@@ -21,14 +21,6 @@ body:
       options:
         - label: I have confirmed this is a new issue
           required: true
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: input
     id: ios-version
     attributes:
@@ -68,7 +60,7 @@ body:
       description: "How often do you encounter this bug?"
       placeholder: "Ex: Always, rarely, every 6th sunday in April"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: reproduction
     attributes:
@@ -82,7 +74,7 @@ body:
         4. Tap "Submit"
         5. Observe that the app shows an error message
     validations:
-      required: true
+      required: false
   - type: textarea
     id: media
     attributes:
@@ -94,3 +86,11 @@ body:
       label: Anything else?
       description: Add any extra information that might be relevant for this bug report.
       placeholder: "I hope this gets fixed before Ragnarok."
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false

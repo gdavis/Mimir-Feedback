@@ -8,10 +8,10 @@ body:
   - type: markdown
     attributes:
       value: |
+        **⚠️ Remember to add a short title for your bug above! ⬆️**
+        
         # 🖥🐛 Report a Bug
         Use this form to submit a new bug for the Mimir macOS app. Thank you for taking the time out of your day to help improve the app! :heart:
-
-        **⚠️ Remember to add a short title for your bug above!**
         
   - type: checkboxes
     id: unique

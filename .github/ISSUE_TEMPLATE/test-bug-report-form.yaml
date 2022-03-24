@@ -29,10 +29,10 @@ body:
     id: platform
     attributes:
       label: Platform
-      description: What platform is this bug happening on?
+      description: Where is this bug happening?
       options:
-        - macOS
         - iOS
+        - macOS
         - Website
     validations:
       required: true

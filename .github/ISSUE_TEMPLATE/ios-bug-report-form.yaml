@@ -1,4 +1,4 @@
-name: iOS App Bug Report
+name: iOS Bug Report
 description: Add a new bug report for Mimir on iOS
 title: "[Bug][iOS] "
 labels: ["🐞 bug", "⚠️ needs review", "📱 iOS"]

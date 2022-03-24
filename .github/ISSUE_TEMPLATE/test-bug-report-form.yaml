@@ -49,7 +49,7 @@ body:
     attributes:
       label: What happened?
       description: Describe in detail how the bug occured. The more detail the better.
-      placeholder: Ex: When I try to import a podcast, an error message appears and says: "that is not a valid RSS feed"
+      placeholder: "Ex: When I try to import a podcast, an error message appears and says: 'that is not a valid RSS feed'"
     validations:
       required: true
   - type: input

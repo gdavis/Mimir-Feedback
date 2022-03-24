@@ -29,7 +29,7 @@ Next you will be asked to choose a form to complete for the platform you found t
 
 From here you can follow the form to provide information on the bug. The hardest part about fixing issues in the app is being able to reproduce them, so please be as descriptive as possible when creating your issue. The best bug reports are ones that describe a step-by-step process to make the bug occur consistently. You can also attach screenshots and videos to your issue which can greatly help me understand the issue. 
 
-Check out these links to find out how to add screenshots or video:
+Check out these links to find out how to capture screenshots or video:
 
 | 📸 How to take a screenshot | 🎥 How to record the screen |
 | --- | --- |

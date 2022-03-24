@@ -23,7 +23,7 @@ If you haven't found an existing issue about what you want to report, continue r
 ## How do I send a bug report?
 Once you know you have a new bug, use the [Issues](https://github.com/gdavis/Mimir-Feedback/issues) tab and [create a new issue.](https://github.com/gdavis/Mimir-Feedback/issues/new/choose)
 
-Next you will be asked to choose which app the bug you are reporting exists. You can also send general feedback on an app if you do not have a specific bug to report ([See Below](https://github.com/gdavis/Mimir-Feedback/edit/main/README.md#how-do-i-send-a-feature-request-or-other-feedback)).
+Next you will be asked to choose a form to complete for the platform you found the bug on. Here you can also choose a feedback form if you do not have a specific bug to report ([See Below](https://github.com/gdavis/Mimir-Feedback/edit/main/README.md#how-do-i-send-a-feature-request-or-other-feedback)).
 
 From here you can follow the form to provide information on the bug. The hardest part about fixing issues in the app is being able to reproduce them, so please be as descriptive as possible when creating your issue. The best bug reports are ones that describe a step-by-step process to make the bug occur consistently. You can also attach screenshots and videos to your issue which can greatly help me understand the issue. 
 

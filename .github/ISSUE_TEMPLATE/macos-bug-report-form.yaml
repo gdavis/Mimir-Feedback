@@ -1,7 +1,7 @@
-name: Bug Report
-description: Add a new bug report
-title: "[Bug] "
-labels: ["🐞 bug", "⚠️ needs review"]
+name: macOS Bug Report
+description: Add a new bug report for the Mimir macOS app
+title: "[Bug][macOS] "
+labels: ["🐞 bug", "⚠️ needs review", "🖥 macOS"]
 assignees:
   - gdavis
 body:
@@ -28,20 +28,33 @@ body:
   - type: dropdown
     id: platform
     attributes:
-      label: Platform
-      description: Where is this bug happening?
+      label: macOS Version
+      description: Which macOS version are you using?
       options:
-        - iOS
-        - macOS
-        - Website
+        - Monterey
+        - Big Sur
+        - Catalina
     validations:
-      required: true
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: What kind of Mac are you using?
+      options:
+        - macMini
+        - MacBook Pro
+        - MacBook Air
+        - Mac Pro
+        - Mac Studio
+        - iMac
+    validations:
+      required: false
   - type: input
     id: version
     attributes:
       label: App Version
-      description: What version of the app are you using?
-      placeholder: ex. 1.0.0
+      description: What version of the app are you using? This can be found in the About window.
+      placeholder: ex. 1.5.0
     validations:
       required: true
   - type: textarea
@@ -68,17 +81,16 @@ body:
       placeholder: |
         Example: 
         1. Open the app
-        2. Tap the "Add" button
-        3. Enter the feed URL: "http://my-favorite-podcast.rss"
-        4. Tap "Submit"
-        5. Observe that the app shows an error message
+        2. Click 'My Favorite Podcast' from the library sidebar
+        3. Click the play button for episode 'Doing Things and Stuff'
+        4. Observe that the app shows the error 'Not a real podcast'
     validations:
       required: true
   - type: textarea
     id: media
     attributes:
       label: Add screenshots or video
-      description: Copy and paste in any relevant screenshots or video that demonstrate the issue. 
+      description: Copy and paste in any relevant screenshots or video that demonstrate the issue. [How to record your screen on macOS](https://support.apple.com/en-us/HT208721)
   - type: textarea
     id: extra
     attributes:

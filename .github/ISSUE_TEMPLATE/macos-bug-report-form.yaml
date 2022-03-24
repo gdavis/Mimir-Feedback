@@ -50,7 +50,7 @@ body:
     attributes:
       label: What happened?
       description: Describe in detail how the bug occured. The more detail the better.
-      placeholder: "Ex: When I try to import a podcast, an error message appears and says: 'that is not a valid RSS feed'"
+      placeholder: "ex: When I try to import a podcast, an error message appears and says: 'that is not a valid RSS feed'"
     validations:
       required: true
   - type: input
@@ -58,7 +58,7 @@ body:
     attributes:
       label: Bug prevalence
       description: "How often do you encounter this bug?"
-      placeholder: "Ex: Always, rarely, only during Fimbulwinter"
+      placeholder: "ex: Always, rarely, only during Fimbulwinter"
     validations:
       required: false
   - type: textarea
@@ -67,7 +67,6 @@ body:
       label: How does it happen?
       description: Provide a series of steps that will make this bug occur.
       placeholder: |
-        Example: 
         1. Open the app
         2. Click 'My Favorite Podcast' from the library sidebar
         3. Click the play button for episode 'Doing Things and Stuff'

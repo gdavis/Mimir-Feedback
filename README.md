@@ -11,14 +11,14 @@ Thank you for taking the time to contribute to making Mimir a better app! ❤️
 -Grant
 
 ## Using Github
-Github is a free and awesome tool many developers use to help create their apps. You will need an account to submit issues and feedback for Mimir. Creating an account is free and easy to do, so don't let that hold you back from contributing! 
+Github is a free and awesome tool many developers use to help create their apps. You will need an account to submit issues and feedback. Creating an account is free and easy to do, so don't let that hold you back from contributing! 👍
 
-Once you have created or commented on an issue, you will also receive updates whenever there are additional comments or status changes made from the developer, keeping you in the loop on its progress.
+Once you have created or commented on an issue, you will receive updates whenever there are additional comments or status changes, keeping you in the loop on its progress.
 
 If you need to create a Github account, [click here to signup.](https://github.com/signup)
 
 ## Search for your issue
-Before submitting a new bug report or feedback, please first check the [Issues](https://github.com/gdavis/Mimir-Feedback/issues) tab to see if your bug/feature request/feedback has already been reported by another user. You can do this by using the search feature to find issues that might be related to what you want to report. You can also leave comments on issues from other users, so please feel free to add your feedback to any other open issue.
+Before submitting a new bug report or feedback, please first check the [Issues](https://github.com/gdavis/Mimir-Feedback/issues) tab to see if your bug/feature request/feedback has already been reported by another user. You can do this by using the search bar to find issues that might be related to what you want to report. You can also leave comments on issues from other users, so please feel free to add your feedback to any other open issue.
 
 If you haven't found an existing issue about what you want to report, continue reading and send me a new issue!
 
@@ -31,7 +31,7 @@ From here you can follow the form to provide information on the bug. The hardest
 
 Check out these links to find out how to add screenshots or video:
 
-| How to take a screenshot | How to record the screen |
+| 📸 How to take a screenshot | 🎥 How to record the screen |
 | --- | --- |
 | [iOS](https://support.apple.com/en-us/HT200289) | [iOS](https://support.apple.com/en-us/HT207935) |
 | [macOS](https://support.apple.com/en-us/HT201361) | [macOS](https://support.apple.com/en-us/HT208721) |

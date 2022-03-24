@@ -1,6 +1,6 @@
 name: iOS Bug Report
 description: Add a new bug report for Mimir on iOS
-title: "[Bug][iOS] "
+title: "[Bug][iOS]: Add a title for this bug"
 labels: ["🐞 bug", "⚠️ needs review", "📱 iOS"]
 assignees:
   - gdavis
@@ -25,23 +25,27 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: dropdown
-    id: device
+  - type: input
+    id: ios-version
     attributes:
-      label: iOS Device
-      description: What iOS device are you using?
-      options:
-        - iPhone
-        - iPad
-        - iPad Air
-        - iPod Touch
+      label: iOS Version
+      description: What iOS version are you using? This is found under General > About > Software Version.
+      placeholder: ex: 14.8
     validations:
       required: true
   - type: input
-    id: version
+    id: specific-device
+    attributes:
+      label: Device Model
+      description: What specific device are you using? This is found under General > About > Model Name.
+      placeholder: ex. iPhone XS
+    validations:
+      required: true
+  - type: input
+    id: app-version
     attributes:
       label: App Version
-      description: What version of the app are you using? This can be found under Settings > About.
+      description: What version of the app are you using? This can be found in Mimir under Settings > About.
       placeholder: ex. 1.0.0
     validations:
       required: true

@@ -25,7 +25,7 @@ body:
     id: ios-version
     attributes:
       label: iOS Version
-      description: What iOS version are you using? This is found under General > About > Software Version.
+      description: What iOS version are you using? This is found in the Settings app under General > About > Software Version.
       placeholder: ex. 14.8
     validations:
       required: true
@@ -33,7 +33,7 @@ body:
     id: specific-device
     attributes:
       label: Device Model
-      description: What specific device are you using? This is found under General > About > Model Name.
+      description: What specific device are you using? This is found in the Settings app under General > About > Model Name.
       placeholder: ex. iPhone XS
     validations:
       required: true

@@ -26,7 +26,7 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: platform
+    id: macos-version
     attributes:
       label: macOS Version
       description: Which macOS version are you using?
@@ -50,7 +50,7 @@ body:
     validations:
       required: false
   - type: input
-    id: version
+    id: app-version
     attributes:
       label: App Version
       description: What version of the app are you using? This can be found in the About window.

@@ -28,7 +28,9 @@ Next you will be asked to choose an issue template for which app the bug you are
 From here you can follow the template to provide information on the bug. The hardest part about fixing issues in the app is being able to reproduce them, so please be as descriptive as possible when creating your issue. The best bug reports are ones that describe a step-by-step process to make the bug occur consistently. You can also attach screenshots and videos to your issue which can greatly help me understand the issue. 
 
 Check out these links to find out how to add screenshots or video:
+
 [How to record your screen on iOS](https://support.apple.com/en-us/HT207935)
+
 [How to record your screen on macOS](https://support.apple.com/en-us/HT208721)
 
 ## How do I send a feature request or other feedback?

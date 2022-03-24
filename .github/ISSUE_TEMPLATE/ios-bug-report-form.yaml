@@ -81,8 +81,8 @@ body:
       label: Add screenshots or video.
       description: |
         Copy and paste in any relevant screenshots or video that demonstrate the issue. 
-        [How to take a screenshot.](https://support.apple.com/en-us/HT200289)
-        [How to record your screen.](https://support.apple.com/en-us/HT207935)
+        [How to take a screenshot](https://support.apple.com/en-us/HT200289)
+        [How to record your screen](https://support.apple.com/en-us/HT207935)
   - type: textarea
     id: extra
     attributes:

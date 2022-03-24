@@ -2,7 +2,7 @@
 name: macOS Bug report
 about: Create a bug report for the Mimir macOS app
 title: "[BUG][macOS] Add a summary about your issue"
-labels: bug, macOS, needs review
+labels: 🐞 bug, 🖥 macOS, ⚠️ needs review
 assignees: gdavis
 
 ---

@@ -88,11 +88,3 @@ body:
       label: Anything else?
       description: Add any extra information that might be relevant for this bug report.
       placeholder: "I hope this gets fixed before Ragnarok."
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can I get in touch with you if I need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false

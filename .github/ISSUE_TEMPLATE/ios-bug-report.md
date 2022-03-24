@@ -2,7 +2,7 @@
 name: iOS Bug report
 about: Create a bug report for the Mimir iOS app
 title: "[BUG][iOS] Add a summary about the issue"
-labels: bug, iOS, needs review
+labels: 🐞 bug, 📱 iOS, ⚠️ needs review
 assignees: gdavis
 projects: "Mimir Feature Tracking"
 ---

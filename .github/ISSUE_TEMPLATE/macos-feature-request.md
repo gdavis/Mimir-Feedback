@@ -2,7 +2,7 @@
 name: macOS Feature request
 about: Suggest an idea for the macOS app
 title: ''
-labels: enhancement, macOS, needs review
+labels: 🌟 enhancement, 🖥 macOS, ⚠️ needs review
 assignees: gdavis
 
 ---

@@ -1,18 +1,28 @@
-name: Auto Assign to Project(s)
-
+name: Assign New Issues to Feedback Project
 on:
   issues:
-    types: [opened]
+    types:
+      - opened
+
+# map fields with customized labels
 env:
-  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+  needs_review: ⚠Needs Review
+  todo: Todo
+  done: Done
+  in_progress: In Progress
 
 jobs:
-  assign_one_project:
+  issue_opened:
+    name: issue_opened
     runs-on: ubuntu-latest
-    name: Assign to One Project
+    if: github.event_name == 'issues' && (github.event.action == 'opened')
     steps:
-    - name: Assign NEW issues to Mimir Feature Tracking project
-      uses: srggrs/assign-one-project-github-action@1.2.1
-      if: github.event.action == 'opened'
-      with:
-        project: 'https://github.com/users/gdavis/projects/3'
+      - name: Move issue to ${{ env.needs_review }}
+        uses: leonsteinhaeuser/project-beta-automations@v1.2.1
+        with:
+          gh_token: ${{ secrets.MIMIR_FEEDBACK_TOKEN }}
+          user: gdavis
+          # organization: sample-org
+          project_id: 3
+          resource_node_id: ${{ github.event.issue.node_id }}
+          status_value: ${{ env.needs_review }} # Target status

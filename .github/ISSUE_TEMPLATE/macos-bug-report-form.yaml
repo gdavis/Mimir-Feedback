@@ -22,14 +22,6 @@ body:
         - label: I have confirmed this is a new issue
           required: true
   - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: input
     id: macos
     attributes:
       label: macOS Version
@@ -68,7 +60,7 @@ body:
       description: "How often do you encounter this bug?"
       placeholder: "Ex: Always, rarely, every 6th sunday in April"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: reproduction
     attributes:
@@ -81,7 +73,7 @@ body:
         3. Click the play button for episode 'Doing Things and Stuff'
         4. Observe that the app shows the error 'Not a real podcast'
     validations:
-      required: true
+      required: false
   - type: textarea
     id: media
     attributes:
@@ -93,3 +85,11 @@ body:
       label: Anything else?
       description: Add any extra information that might be relevant for this bug report.
       placeholder: "I hope this gets fixed before Ragnarok."
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false

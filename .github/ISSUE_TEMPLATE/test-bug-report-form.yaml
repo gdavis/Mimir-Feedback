@@ -1,6 +1,6 @@
-name: Mimir Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Bug Report
+description: Add a new bug report
+title: "[Bug] "
 labels: ["🐞 bug", "⚠️ needs review"]
 assignees:
   - gdavis
@@ -26,13 +26,14 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: version
+    id: platform
     attributes:
       label: Platform
       description: What platform is this bug happening on?
       options:
         - macOS
         - iOS
+        - Website
     validations:
       required: true
   - type: input
@@ -47,22 +48,40 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      description: Describe in detail how the bug occured. The more detail the better.
+      placeholder: Ex: When I try to import a podcast, an error message appears and says: "that is not a valid RSS feed"
+    validations:
+      required: true
+  - type: input
+    id: prevalence
+    attributes:
+      label: Bug prevalence
+      description: "How often do you encounter this bug?"
+      placeholder: "Whenever I tap this button"
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: reproduction
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: How does it happen?
+      description: Provide a series of steps that will make this bug occur.
+      placeholder: |
+        Example: 
+        1. Open the app
+        2. Tap the "Add" button
+        3. Enter the feed URL: "http://my-favorite-podcast.rss"
+        4. Tap "Submit"
+        5. Observe that the app shows an error message
+    validations:
+      required: true
+  - type: textarea
+    id: media
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Add screenshots or video
+      description: Copy and paste in any relevant screenshots or video that demonstrate the issue. 
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Add any extra information that might be relevant for this bug report.
+      placeholder: "I hope this gets fixed before Ragnarok."

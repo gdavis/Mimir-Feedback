@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/110691/159819551-be5df0db-21ff-455b-95cd-3b082bc02234.png" width=200 />
+  <img src="https://user-images.githubusercontent.com/110691/159819551-be5df0db-21ff-455b-95cd-3b082bc02234.png" width=200 /
 </p>
 
 
-# Mimir – Bug Tracking & Feedback
+# Mimir – Bug Reports & Feedback
 👋 Hello there! This is the place for sending bug reports and feedback for the podcast app Mimir; available on both [macOS and iOS](https://apps.apple.com/us/app/mimir-powerful-podcasts/id1508343025) devices. Mimir is created by just one developer, so while it may take some time for me to get to all the issues reported, I do want to hear your feedback and fix bugs as soon as I can.
 
 Thank you for taking the time to contribute to making Mimir a better app!

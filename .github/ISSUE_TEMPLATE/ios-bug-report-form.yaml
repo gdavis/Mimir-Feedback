@@ -1,0 +1,88 @@
+name: iOS App Bug Report
+description: Add a new bug report for Mimir on iOS
+title: "[Bug][iOS] "
+labels: ["🐞 bug", "⚠️ needs review", "📱 iOS"]
+assignees:
+  - gdavis
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: unique
+    attributes:
+      label: Are you sure this is a new issue?
+      description: By submitting this issue, you confirm that you have searched for this bug in other open issues and confirmed it is unique.
+      options:
+        - label: I have confirmed this is a new issue
+          required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: iOS Device
+      description: What iOS device are you using?
+      options:
+        - iPhone
+        - iPad
+        - iPad Air
+        - iPod Touch
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App Version
+      description: What version of the app are you using? This can be found under Settings > About.
+      placeholder: ex. 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe in detail how the bug occured. The more detail the better.
+      placeholder: "Ex: When I try to import a podcast, an error message appears and says: 'that is not a valid RSS feed'"
+    validations:
+      required: true
+  - type: input
+    id: prevalence
+    attributes:
+      label: Bug prevalence
+      description: "How often do you encounter this bug?"
+      placeholder: "Ex: Always, rarely, every 6th sunday in April"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How does it happen?
+      description: Provide a series of steps that will make this bug occur.
+      placeholder: |
+        Example: 
+        1. Open the app
+        2. Tap the "Add" button
+        3. Enter the feed URL: "http://my-favorite-podcast.rss"
+        4. Tap "Submit"
+        5. Observe that the app shows an error message
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Add screenshots or video.
+      description: Copy and paste in any relevant screenshots or video that demonstrate the issue. [How to take a screenshot.](https://support.apple.com/en-us/HT200289) [How to record your screen.](https://support.apple.com/en-us/HT207935)
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Add any extra information that might be relevant for this bug report.
+      placeholder: "I hope this gets fixed before Ragnarok."

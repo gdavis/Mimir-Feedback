@@ -8,7 +8,7 @@
 
 Thank you for taking the time to contribute to making Mimir a better app!
 
-- Grant
+-Grant
 
 ## Using Github
 Github is a free and awesome tool many developers use to help create their apps. You will need an account to submit issues and feedback for Mimir. Creating an account is free and easy to do, so don't let that hold you back from contributing! 

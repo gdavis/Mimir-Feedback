@@ -16,7 +16,7 @@ body:
     id: unique
     attributes:
       label: Are you sure this is a new issue?
-      description: By submitting this issue, you confirm that you have searched for this bug in other open issues and confirmed it is unique.
+      description: Be sure this is a new issue before submitting. Use the search bar in the [Issues](https://github.com/gdavis/Mimir-Feedback/issues) tab to confirm this is a new bug.
       options:
         - label: I have confirmed this is a new issue
           required: true

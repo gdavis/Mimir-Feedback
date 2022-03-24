@@ -20,7 +20,7 @@ jobs:
       - name: Move issue to ${{ env.needs_review }}
         uses: leonsteinhaeuser/project-beta-automations@v1.2.1
         with:
-          gh_token: ${{ secrets.MIMIR_FEEDBACK_TOKEN }}
+          gh_token: ${{ secrets.MIMIR_FEEDBACK }}
           user: gdavis
           # organization: sample-org
           project_id: 3

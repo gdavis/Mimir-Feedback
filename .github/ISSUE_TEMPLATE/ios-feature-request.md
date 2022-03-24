@@ -2,7 +2,7 @@
 name: iOS Feature request
 about: Suggest an idea for the Mimir iOS app
 title: ''
-labels: enhancement, iOS, needs review
+labels: 🌟 enhancement, 📱 iOS, ⚠️ needs review
 assignees: gdavis
 
 ---

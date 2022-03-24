@@ -1,5 +1,5 @@
 ---
-name: iOS Feature request
+name: iOS Feature request 🙋
 about: Suggest an idea for the Mimir iOS app
 title: '[iOS] Add a feature summary'
 labels: 🌟 enhancement, 📱 iOS, ⚠️ needs review

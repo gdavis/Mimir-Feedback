@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/110691/159819551-be5df0db-21ff-455b-95cd-3b082bc02234.png" with=196 />
+  <img src="https://user-images.githubusercontent.com/110691/159819551-be5df0db-21ff-455b-95cd-3b082bc02234.png" width=200 />
 </p>
 
 
 # Mimir – Bug Tracking & Feedback
 👋 Hello there! This is the place for sending bug reports and feedback for the podcast app Mimir; available on both macOS and iOS devices. Mimir is created by just one developer, so while it may take some time for me to get to all the issues reported, I do want to hear your feedback and fix bugs as soon as I can.
 
-Thank you for taking the time for contributing to making Mimir a better app!
+Thank you for taking the time to contribute to making Mimir a better app!
 
 ## Using Github
-Github is a free and awesome tool many developers use to help create their apps. You will need an account to submit issues and feedback for Mimir. Creating an account is free and easy to do, so please don't let that hold you back from contributing! 
+Github is a free and awesome tool many developers use to help create their apps. You will need an account to submit issues and feedback for Mimir. Creating an account is free and easy to do, so don't let that hold you back from contributing! 
 
 Once you have created or commented on an issue, you will also receive updates whenever there are additional comments or status changes made from the developer, keeping you in the loop on its progress.
 
@@ -34,7 +34,7 @@ Check out these links to find out how to add screenshots or video:
 ## How do I send a feature request or other feedback?
 Submitting feedback is just like submitting a bug, just [create a new issue](https://github.com/gdavis/Mimir-Feedback/issues/new/choose) and choose the template that best matches the feedback you want to provide. Please check other existing issues before submitting so we don't have a lot of duplicates!
 
-If you want to show that you're also interested in an existing feature request or feedback, use the "+" button on an issue and add a 👍 reaction to the issue. This gets counted and lets me know how many people are interested in the same feature. It also cuts down on everyone having to add a "me too!" comment to the issue.
+If you want to show that you're also interested in an existing feature request or feedback, use the "+" button on an issue and add a 👍 (+1) reaction to the issue. This counter lets me know how many people are interested in the same feature. It also cuts down on everyone having to add a "me too!" comment to the issue.
 
 ## What if I just have something nice to say?
 Aren't you just wonderful! ❤️ This is the place to report bugs or ask for things that might not be in the app yet, so if you want to tell me something you like about the apps, [just send me an email](mailto:grant@mimirpodcasts.app)!

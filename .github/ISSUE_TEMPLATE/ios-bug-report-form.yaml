@@ -58,7 +58,7 @@ body:
     attributes:
       label: Bug prevalence
       description: "How often do you encounter this bug?"
-      placeholder: "Ex: Always, rarely, every 6th sunday in April"
+      placeholder: "Ex: Always, rarely, only during Fimbulwinter"
     validations:
       required: false
   - type: textarea

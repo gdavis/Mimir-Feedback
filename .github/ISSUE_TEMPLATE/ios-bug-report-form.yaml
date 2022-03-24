@@ -12,6 +12,9 @@ body:
         Use this form to submit a new bug for the Mimir iOS app. 
         
         Thank you for taking the time out of your day to help improve the app!
+        
+        **⚠️ Remember to add a short title for your bug above!**
+        
   - type: checkboxes
     id: unique
     attributes:

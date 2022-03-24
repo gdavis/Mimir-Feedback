@@ -1,5 +1,5 @@
 name: macOS Bug Report
-description: Add a new bug report for the Mimir macOS app
+description: Add a new bug report for Mimir on macOS
 title: "[Bug][macOS] "
 labels: ["🐞 bug", "⚠️ needs review", "🖥 macOS"]
 assignees:

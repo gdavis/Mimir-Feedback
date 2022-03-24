@@ -8,12 +8,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        # Report a Bug
+        Use this form to submit a new bug for the Mimir iOS app. 
+        
+        Thank you for taking the time out of your day to help improve the app!
   - type: checkboxes
     id: unique
     attributes:
       label: Are you sure this is a new issue?
-      description: By submitting this issue, you confirm that you have searched for this bug in other open issues and confirmed it is unique.
+      description: Be sure this is a new issue before submitting. Use the search bar in the [Issues](https://github.com/gdavis/Mimir-Feedback/issues) tab to confirm this is a new bug.
       options:
         - label: I have confirmed this is a new issue
           required: true

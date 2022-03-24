@@ -1,7 +1,7 @@
 ---
 name: macOS Feature request
 about: Suggest an idea for the macOS app
-title: [macOS] Add a feature summary
+title: '[macOS] Add a feature summary'
 labels: 🌟 enhancement, 🖥 macOS, ⚠️ needs review
 assignees: gdavis
 

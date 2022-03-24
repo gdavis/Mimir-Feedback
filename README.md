@@ -4,7 +4,7 @@
 
 
 # Mimir – Bug Tracking & Feedback
-👋 Hello there! This is the place for sending bug reports and feedback for the podcast app Mimir; available on both macOS and iOS devices. Mimir is created by just one developer, so while it may take some time for me to get to all the issues reported, I do want to hear your feedback and fix bugs as soon as I can.
+👋 Hello there! This is the place for sending bug reports and feedback for the podcast app Mimir; available on both [macOS](https://apps.apple.com/us/app/mimir-powerful-podcasts/id1508343025) and iOS devices. Mimir is created by just one developer, so while it may take some time for me to get to all the issues reported, I do want to hear your feedback and fix bugs as soon as I can.
 
 Thank you for taking the time to contribute to making Mimir a better app!
 

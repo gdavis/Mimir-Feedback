@@ -1,4 +1,6 @@
-![image](https://user-images.githubusercontent.com/110691/159819551-be5df0db-21ff-455b-95cd-3b082bc02234.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110691/159819551-be5df0db-21ff-455b-95cd-3b082bc02234.png" with=196 />
+</p>
 
 
 # Mimir – Bug Tracking & Feedback
@@ -35,4 +37,4 @@ Submitting feedback is just like submitting a bug, just [create a new issue](htt
 If you want to show that you're also interested in an existing feature request or feedback, use the "+" button on an issue and add a 👍 reaction to the issue. This gets counted and lets me know how many people are interested in the same feature. It also cuts down on everyone having to add a "me too!" comment to the issue.
 
 ## What if I just have something nice to say?
-Aren't you just wonderful! ❤️ This is the place to report bugs or ask for things that might not be in the app yet, so if you want to tell me something you like about the apps, [just send me an email!](mailto:grant@mimirpodcasts.app)
+Aren't you just wonderful! ❤️ This is the place to report bugs or ask for things that might not be in the app yet, so if you want to tell me something you like about the apps, [just send me an email](mailto:grant@mimirpodcasts.app)!

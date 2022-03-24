@@ -30,7 +30,7 @@ body:
     attributes:
       label: iOS Version
       description: What iOS version are you using? This is found under General > About > Software Version.
-      placeholder: ex: 14.8
+      placeholder: ex. 14.8
     validations:
       required: true
   - type: input

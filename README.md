@@ -20,7 +20,7 @@ If you need to create a Github account, [click here to signup.](https://github.c
 ## Search for your issue
 Before submitting a new bug report or feedback, please first check the [Issues](https://github.com/gdavis/Mimir-Feedback/issues) tab to see if your bug/feature request/feedback has already been reported by another user. You can do this by using the search bar to find issues that might be related to what you want to report. You can also leave comments on issues from other users, so please feel free to add your feedback to any other open issue.
 
-If you haven't found an existing issue about what you want to report, continue reading and send me a new issue!
+If you haven't found an existing issue about what you want to report, continue reading on and send me a new issue!
 
 ## How do I send a bug report?
 Once you know you have a new bug, use the [Issues](https://github.com/gdavis/Mimir-Feedback/issues) tab and [create a new issue.](https://github.com/gdavis/Mimir-Feedback/issues/new/choose)

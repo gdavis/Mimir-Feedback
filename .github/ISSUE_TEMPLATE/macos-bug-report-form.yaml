@@ -28,36 +28,28 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: dropdown
-    id: macos-version
+  - type: input
+    id: macos
     attributes:
       label: macOS Version
-      description: Which macOS version are you using?
-      options:
-        - Monterey
-        - Big Sur
-        - Catalina
+      description: What version of macOS are you on? This can be found under the  > About This Mac.
+      placeholder: ex. Big Sur 11.6.4
     validations:
-      required: false
-  - type: dropdown
-    id: platform
+      required: true
+  - type: input
+    id: mac
     attributes:
-      label: What kind of Mac are you using?
-      options:
-        - macMini
-        - MacBook Pro
-        - MacBook Air
-        - Mac Pro
-        - Mac Studio
-        - iMac
+      label: Your Mac
+      description: What kind of Mac are you using? This can be found under the  > About This Mac.
+      placeholder: ex. MacBook Pro (Retina, 15-inch, Mid 2014)
     validations:
-      required: false
+      required: true
   - type: input
     id: app-version
     attributes:
       label: App Version
-      description: What version of the app are you using? This can be found in the About window.
-      placeholder: ex. 1.5.0
+      description: What version of the app are you using? This can be found in the app under the 'About Mimir' menu item.
+      placeholder: ex. 1.5.0 (101)
     validations:
       required: true
   - type: textarea

@@ -57,7 +57,7 @@ body:
     attributes:
       label: Bug prevalence
       description: "How often do you encounter this bug?"
-      placeholder: "Whenever I tap this button"
+      placeholder: "Ex: Always, rarely, every 6th sunday in April"
     validations:
       required: true
   - type: textarea

@@ -39,7 +39,7 @@ Check out these links to find out how to capture screenshots or video:
 ## How do I send a feature request or other feedback?
 Submitting feedback is just like submitting a bug, just [create a new issue](https://github.com/gdavis/Mimir-Feedback/issues/new/choose) and choose the template that best matches the feedback you want to provide. Please check other existing issues before submitting so we don't have a lot of duplicates!
 
-If you want to show that you're also interested in an existing feature request or feedback, use the "+" button on an issue and add a 👍 (+1) reaction to the issue. This counter lets me know how many people are interested in the same feature and also cuts down on everyone having to add a "me too!" comment to the issue.
+If you want to show that you're interested in an existing feature request or also experienced a reported bug, use the "+" button on the issue and add a 👍 (+1) reaction to it. This counter lets me know how many people are interested in the same feature and also cuts down on everyone having to add a "me too!" comment.
 
 ## What if I just have something nice to say?
 Aren't you just wonderful! ❤️ This is the place to report bugs or ask for things that might not be in the app yet, so if you want to tell me something you like about the apps, [just send me an email](mailto:grant@mimirpodcasts.app)!
